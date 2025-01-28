@@ -1,0 +1,55 @@
+@media (max-width:768px) {
+    .todolist {
+        width: 95%;
+        height: 90%;
+    }
+
+    .todolist h1 {
+        font-size: 50px;
+    }
+
+    .todolist input[type="text"] {
+        padding: 0.5rem;
+        font-size: 25px;
+    }
+
+    .todolist .add-btn {
+        padding: 0.5rem 1.5rem;
+        font-size: 30px;
+    }
+
+    .todolist ul li span {
+        font-size: 35px;
+    }
+
+    .todolist ul li input[type="checkbox"] {
+        width: 30px;
+        height: 26px;
+    }
+
+    .todolist ul li .remove-btn {
+        font-size: 30px;
+    }
+
+    .todolist ul li {
+        padding: 0.8rem 0;
+    }
+
+    .todolist ul {
+        height: 87%;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .todolist {
+        width: 80%;
+    }
+
+    .todolist h1 {
+        font-size: 45px;
+    }
+
+    .todolist ul {
+        height: 85%;
+    }
+}
