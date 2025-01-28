@@ -26,7 +26,7 @@ export const TodoList = () => {
     return (
         <div className="todo-container">
             <div className="todolist">
-                <h1>Your Personal TodoList</h1>
+                <h1>Things I need to do</h1>
 
                 <div>
                     <input type="text" placeholder="Add Your Todo" onChange={(event) => setNewTodo(event.target.value)} />
@@ -44,6 +44,7 @@ export const TodoList = () => {
                         </li>
                     ))
                     }
+
                 </ul>
             </div>
         </div>
