@@ -1,4 +1,57 @@
-@media (max-width:599px) {
+@media (min-width:1024px) and (max-width:1415px) {
+    .todolist {
+        width: 50%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+    .todolist {
+        width: 50%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:992px) {
+    .todolist {
+        width: 85%;
+    }
+
+    .todolist h1 {
+        font-size: 55px;
+    }
+
+    .todolist input[type="text"] {
+        font-size: 22px;
+    }
+
+    .todolist .add-btn {
+        font-size: 25px;
+    }
+
+    .todolist ul li input[type="checkbox"] {
+        width: 22px;
+        height: 22px;
+    }
+
+    .todolist ul li span {
+        font-size: 30px;
+    }
+
+    .todolist ul li .remove-btn {
+        font-size: 25px;
+    }
+
+    .todolist ul {
+        height: 85%;
+    }
+
+    .todolist ul li span {
+        padding: 0 0.5rem;
+    }
+}
+
+
+@media (max-width:768px) {
     .todolist h1 {
         font-size: 35px;
     }
@@ -37,17 +90,17 @@
     }
 }
 
-
-/* @media (min-width:768px) and (max-width:992px) {
-    .todolist {
-        width: 80%;
+@media (max-width:400px) {
+    .todolist h1 {
+        font-size: 25px;
     }
 
-    .todolist h1 {
-        font-size: 45px;
+    .todolist input[type="text"],
+    .todolist .add-btn {
+        font-size: 15px;
     }
 
     .todolist ul {
-        height: 85%;
+        height: 88%;
     }
-} */
+}
