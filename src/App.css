@@ -21,7 +21,7 @@
     background: #40001F;
     padding: 0.5rem;
     border-radius: 10px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 
