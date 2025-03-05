@@ -1,10 +1,4 @@
-@media (min-width:1024px) and (max-width:1415px) {
-    .todolist {
-        width: 50%;
-    }
-}
-
-@media (min-width:992px) and (max-width:1024px) {
+@media (min-width:992px) and (max-width:1415px) {
     .todolist {
         width: 50%;
     }
